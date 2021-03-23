@@ -1,0 +1,6 @@
+Reading a text file into a list:
+
+
+my_file = open("sample.txt", "r")
+content = my_file.read()
+print(content)
