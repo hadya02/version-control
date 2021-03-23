@@ -1,4 +1,17 @@
-writing  a list to a file:
+Reading a text file into a list:
+
+
+my_file = open("sample.txt", "r")
+content = my_file.read()
+print(content)
+
+
+
+
+__________________________________
+
+
+writing a list to a file:
 
 l1=['hi','hello','welcome']
 
